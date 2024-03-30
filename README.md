@@ -3,12 +3,19 @@
 <h4>node tools</h4>
 <table>
   <th>
-    <td>#name</td>
-    <td>#use case</td>
+    <td>Name</td>
+    <td>Use case</td>
   </th>
   <tbody>
-    <td>#1</td>
-    <td>#nodemon</td>
-    <td>#make live server in command</td>
+    <tr>
+      <td>#1</td>
+      <td>nodemon</td>
+      <td>make live server in command</td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>inquirer</td>
+      <td>A collection of common interactive command line user interfaces.</td>
+    </tr>
   </tbody>
 </table>
