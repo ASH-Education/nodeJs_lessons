@@ -5,17 +5,20 @@
   <th>
     <td>Name</td>
     <td>Use case</td>
+    <td>install</td>
   </th>
   <tbody>
     <tr>
       <td>#1</td>
       <td>nodemon</td>
       <td>make live server in command</td>
+      <td>https://www.npmjs.com/package/nodemon</td>
     </tr>
     <tr>
       <td>#2</td>
       <td>inquirer</td>
       <td>A collection of common interactive command line user interfaces.</td>
+      <td>https://www.npmjs.com/package/inquirer</td>
     </tr>
   </tbody>
 </table>
