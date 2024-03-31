@@ -21,6 +21,12 @@
       <td>A collection of common interactive command line user interfaces.</td>
       <td>https://www.npmjs.com/package/inquirer</td>
     </tr>
+    <tr>
+      <td>#2</td>
+      <td>libuv</td>
+      <td>A collection of common interactive command line user interfaces.</td>
+      <td>https://docs.libuv.org</td>
+    </tr>
   </tbody>
 </table>
 
