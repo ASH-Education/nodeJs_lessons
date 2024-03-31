@@ -52,8 +52,8 @@
       <td>can use any function from file to defrent file</td>
     </tr>
     <tr>
-      <td>#1</td>
-      <td>file system module</td>
+      <td>#2</td>
+      <td>fs module</td>
       <td>work on files system and write, remove and viwe on documents</td>
     </tr>
   </tbody>
