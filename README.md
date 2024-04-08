@@ -66,3 +66,8 @@
     </tr>
   </tbody>
 </table>
+
+###
+
+  > libuv Design
+![architecture](https://github.com/ASH-Education/nodeJs_lessons/assets/124946844/4b8b6661-fd3f-4c8e-8ed0-3ace7b000a7b)
