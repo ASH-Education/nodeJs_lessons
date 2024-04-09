@@ -27,6 +27,12 @@
       <td>The complete solution for node.js command-line interfaces.</td>
       <td>https://www.npmjs.com/package/commander</td>
     </tr>
+    <tr>
+      <td>#4</td>
+      <td>thread pool</td>
+      <td>The complete solution for node.js command-line interfaces.</td>
+      <td>https://docs.libuv.org/en/v1.x/threadpool.html</td>
+    </tr>
   </tbody>
 </table>
 
@@ -71,3 +77,13 @@
 
   > libuv Design
 ![architecture](https://github.com/ASH-Education/nodeJs_lessons/assets/124946844/4b8b6661-fd3f-4c8e-8ed0-3ace7b000a7b)
+<h1>It is divided into two parts</h1>
+
+<h3>First Division is network i/o >> hanel in os kernal</h3>
+
+  > "About http request"
+- epoll on Linux
+- kqueue on OSX and other BSDs
+- event ports on SunOS
+- IOCP on Windows
+
