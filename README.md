@@ -30,7 +30,7 @@
     <tr>
       <td>#4</td>
       <td>thread pool</td>
-      <td>The complete solution for node.js command-line interfaces.</td>
+      <td> used to run all file system operations</td>
       <td>https://docs.libuv.org/en/v1.x/threadpool.html</td>
     </tr>
   </tbody>
