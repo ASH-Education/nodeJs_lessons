@@ -1,6 +1,6 @@
 <h1>node js lessons</h1>
 
-  > node tools
+> node tools module
 
 <table>
   <th>
@@ -33,10 +33,20 @@
       <td> used to run all file system operations</td>
       <td>https://docs.libuv.org/en/v1.x/threadpool.html</td>
     </tr>
+        <tr>
+      <td>#5</td>
+      <td>exposrt and Import</td>
+      <td>can use any function from file to defrent file</td>
+    </tr>
+    <tr>
+      <td>#6</td>
+      <td>fs module</td>
+      <td>work on files system and write, remove and viwe on documents</td>
+    </tr>
   </tbody>
 </table>
 
-  > node frame works
+> node frame works
 
 <table>
   <th>
@@ -49,10 +59,25 @@
       <td>express</td>
       <td>https://expressjs.com</td>
     </tr>
+    <tr>
+      <td>#2</td>
+      <td>Koa</td>
+      <td>https://koajs.com</td>
+    </tr>
+    <tr>
+      <td>#3</td>
+      <td>nest</td>
+      <td>https://nestjs.com</td>
+    </tr>
+    <tr>
+      <td>#4</td>
+      <td>Hapi</td>
+      <td>https://hapi.dev</td>
+    </tr>
   </tbody>
 </table>
 
-  > node frame works
+> node frame works
 
 <table>
   <th>
@@ -60,33 +85,25 @@
     <td>Details</td>
   </th>
   <tbody>
-    <tr>
-      <td>#1</td>
-      <td>exposrt and Import</td>
-      <td>can use any function from file to defrent file</td>
-    </tr>
-    <tr>
-      <td>#2</td>
-      <td>fs module</td>
-      <td>work on files system and write, remove and viwe on documents</td>
-    </tr>
+
   </tbody>
 </table>
 
 ###
 
-  > libuv Design
-![architecture](https://github.com/ASH-Education/nodeJs_lessons/assets/124946844/4b8b6661-fd3f-4c8e-8ed0-3ace7b000a7b)
+> libuv Design
+> ![architecture](https://github.com/ASH-Education/nodeJs_lessons/assets/124946844/4b8b6661-fd3f-4c8e-8ed0-3ace7b000a7b)
+
 <h1>It is divided into two parts</h1>
 
 <h3>First Division is network i/o >> hanel in os kernal</h3>
 
-  > "About http request"
+> "About http request"
+
 - epoll on Linux
 - kqueue on OSX and other BSDs
 - event ports on SunOS
 - IOCP on Windows
-
 
   > kernel
 
