@@ -87,3 +87,19 @@
 - event ports on SunOS
 - IOCP on Windows
 
+
+  > kernel
+
+<table>
+  <th>
+    <td>vedio</td>
+    <td>link</td>
+  </th>
+  <tbody>
+    <tr>
+      <td>#1</td>
+      <td>operating system kernel</td>
+      <td>https://youtu.be/Ujd3zy2M2M4?si=0S5tyr8CdABL4Z9_</td>
+    </tr>
+  </tbody>
+</table>
