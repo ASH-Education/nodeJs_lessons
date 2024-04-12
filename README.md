@@ -86,18 +86,6 @@
   </tbody>
 </table>
 
-> node frame works
-
-<table>
-  <th>
-    <td>Name</td>
-    <td>Details</td>
-  </th>
-  <tbody>
-
-  </tbody>
-</table>
-
 ###
 
 > libuv Design
