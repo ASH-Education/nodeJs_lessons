@@ -45,6 +45,10 @@
     </tr>
   </tbody>
 </table>
+<hr>
+<br>
+<br>
+
 
 > node frame works
 
@@ -85,6 +89,10 @@
     </tr>
   </tbody>
 </table>
+<hr>
+<br>
+<br>
+
 
 ###
 
@@ -117,8 +125,16 @@
     </tr>
   </tbody>
 </table>
+<hr>
+<br>
+<br>
+<br>
 
   > status code
+###
+more information the status code in "mdn"
+###
+> https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#browser_compatibility
 
 <table>
   <th>
