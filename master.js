@@ -17,16 +17,28 @@ const start = performance.now();
 // crypto.pbkdf2Sync('secret', 'salt', 100000, 64, 'sha512');
 // console.log("end at : ", performance.now() - start);
 
-// without Sync ============thread pool===============
-// crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', () => {
-// console.log("end at : ", performance.now() - start);
-// });
-// crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', () => {
-// console.log("end at : ", performance.now() - start);
-// });
-// crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', () => {
-// console.log("end at : ", performance.now() - start);
-// });
-// crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', () => {
-// console.log("end at : ", performance.now() - start);
-// });
+// without Sync ============thread pool=============== cpu tasks
+// process.env.UVThREDPOOL = 10; // control on thread pool default(4threads) MAXMEM(1024threads)
+crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', () => {
+console.log("end at ms : ", performance.now() - start);
+});
+crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', () => {
+console.log("end at ms : ", performance.now() - start);
+});
+crypto.pbkdf2('secret', 'salt', 100000, 64, 'sha512', () => {
+console.log("end at ms : ", performance.now() - start);
+});
+
+// network tasks 
+fetch("https://dummyjson.com/products/1").then(() => {
+  console.log("end of req ms : ", performance.now() - start);
+})
+
+fetch("https://dummyjson.com/products/1").then(() => {
+  console.log("end of req ms : ", performance.now() - start);
+})
+
+fetch("https://dummyjson.com/products/1").then(() => {
+  console.log("end of req ms : ", performance.now() - start);
+})
+
