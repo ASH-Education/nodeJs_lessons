@@ -175,3 +175,16 @@ more information the status code in "mdn"
     </tr>
   </tbody>
 </table>
+
+<hr>
+<br>
+<br>
+<br>
+
+<h1>Express information</h1>
+
+  >  site https://expressjs.com/
+
+  > install https://expressjs.com/en/starter/installing.html
+
+  > middleware https://expressjs.com/en/guide/writing-middleware.html
