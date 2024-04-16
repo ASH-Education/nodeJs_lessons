@@ -45,6 +45,10 @@
     </tr>
   </tbody>
 </table>
+<hr>
+<br>
+<br>
+
 
 > node frame works
 
@@ -85,6 +89,10 @@
     </tr>
   </tbody>
 </table>
+<hr>
+<br>
+<br>
+
 
 ###
 
@@ -117,3 +125,68 @@
     </tr>
   </tbody>
 </table>
+<hr>
+<br>
+<br>
+<br>
+
+  > status code
+###
+more information the status code in "mdn"
+###
+> https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#browser_compatibility
+
+<table>
+  <th>
+    <td>code</td>
+    <td>information</td>
+    <td>more</td>
+  </th>
+  <tbody>
+    <tr>
+      <td>#1</td>
+      <td>100 - 199</td>
+      <td>Informational responses</td>
+      <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses</td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>200 - 299</td>
+      <td>Successful responses</td>
+      <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses</td>
+    </tr>
+    <tr>
+      <td>#3</td>
+      <td>300 - 399</td>
+      <td>Redirection messages</td>
+      <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages</td>
+    </tr>
+    <tr>
+      <td>#4</td>
+      <td>400 - 499</td>
+      <td>Client error responses</td>
+      <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses</td>
+    </tr>
+    <tr>
+      <td>#5</td>
+      <td>500 - 599</td>
+      <td>Server error responses</td>
+      <td>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+<br>
+<br>
+<br>
+
+<h1>Express information</h1>
+
+  >  site https://expressjs.com/
+
+  > install https://expressjs.com/en/starter/installing.html
+
+  > middleware https://expressjs.com/en/guide/writing-middleware.html
+
+  > morgan medelware node.js npm => https://www.npmjs.com/package/morgan | github => https://github.com/expressjs/morgan
