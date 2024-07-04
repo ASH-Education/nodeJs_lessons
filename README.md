@@ -43,6 +43,12 @@
       <td>fs module</td>
       <td>work on files system and write, remove and viwe on documents</td>
     </tr>
+    <tr>
+      <td>#7</td>
+      <td>express-validator</td>
+      <td>handle vlidation for all data</td>
+      <td>https://express-validator.github.io/docs/</td>
+    </tr>
   </tbody>
 </table>
 <hr>
